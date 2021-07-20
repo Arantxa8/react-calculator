@@ -13,7 +13,7 @@ function App() {
       setResult("");
       
     } else if(result.length<13){
-      console.log(result);
+      
     setResult(result.concat(e.target.name));
     } 
   };
